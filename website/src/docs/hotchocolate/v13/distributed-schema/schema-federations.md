@@ -7,6 +7,8 @@ Therefore you need to configure federations in two places: the gateway schema an
 
 The schemas can either be pushed to a Redis cache and then pulled from the gateway or directly be pulled by the gateway from the downstream service.
 
+> Note: Federation of subscriptions is not supported in HotChocolate 13.4.0
+
 # Federation with Redis
 
 Hot Chocolate uses the Redis cache as a pub/sub system to signal changes on the downstream services.
